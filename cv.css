@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    width: 1000px;
+    margin: 5rem;
+}
+
+h1 {
+    padding: 1rem 0rem 0rem 0rem;
+    width: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+
+    text-shadow: 5px 5px lightslategray;
+
+}
+
+.containerDiv {
+    border: black 1px outset;
+    border-radius: 5%;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(148, 162, 177);
+    
+    width: 100%;
+}
+
+.DivRow1 {
+    display: flex;
+    text-align: center;
+
+    flex-direction: row;
+}
+
+.DivRow2 {
+    display: flex;
+    margin: 1rem;
+
+    flex-direction: row;
+}
+
+.mainDivOne {
+    display: flex;
+    flex-direction: column;
+
+    margin: 1rem;
+    width: 50%;
+}
+
+.cvPicDiv {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;    
+    height: 250px;
+
+    margin: 0rem 0rem 1.5rem 0rem;
+}
+
+.cvPicDiv img {
+    box-shadow: 10px 10px lightslategrey;
+    border: black outset 1px;
+    border-radius: 25%;
+    height: 250px;
+    width: 250px;
+}
+
+.knowledgeDiv {
+    display: flex;
+    flex-direction: column;
+
+    border: black outset 1px;
+    border-radius: 10%;
+    box-shadow: 10px 10px lightslategrey;
+
+
+    width: 100%;
+    height: 500px;
+
+}
+
+.knowledgeDiv div {
+    margin: 2rem 0rem 0rem 2rem;
+}
+
+.knowledgeDiv p {
+    margin: 0.2rem 0rem 0rem 0rem;
+}
+
+.mainDivTwo {
+    border: black outset 1px;
+    border-radius: 10%;
+    display: flex;
+
+    justify-content: center;
+
+    box-shadow: 10px 10px lightslategrey;
+    
+    margin: 1rem;
+    width: 50%;
+}
+
+.mainDivTwo div {
+    margin: auto;
+}
+
+.mainDivTwo div p {
+    margin: 0rem 2rem 0rem 2rem;
+    word-spacing: 0.1rem;
+}
+
+
+
