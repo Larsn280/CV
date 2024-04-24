@@ -83,20 +83,20 @@ h1 {
 
 }
 
-.knowledgeDiv div {
-    margin: 2rem 0rem 0rem 2rem;
+.knowledgeDiv h4 {
+    margin: 2.5rem 2rem 0.5rem 2rem;
 }
 
 .knowledgeDiv p {
-    margin: 0.2rem 0rem 0rem 0rem;
+    margin: 0rem 2rem 0rem 2rem;
+    word-spacing: 0.1rem;
 }
 
 .mainDivTwo {
     border: black outset 1px;
     border-radius: 10%;
     display: flex;
-
-    justify-content: center;
+    flex-direction: column;
 
     box-shadow: 10px 10px lightslategrey;
     
@@ -104,14 +104,27 @@ h1 {
     width: 50%;
 }
 
-.mainDivTwo div {
-    margin: auto;
+.mainDivTwo div h4 {
+    margin: 2.5rem 2rem 0.5rem 2rem; 
+}
+
+.mainDivTwo div ul {
+    margin: 0rem 2rem 0rem 2rem;
+    list-style-position: inside;
 }
 
 .mainDivTwo div p {
     margin: 0rem 2rem 0rem 2rem;
     word-spacing: 0.1rem;
 }
+
+.contactDiv {
+    margin: 0.4rem 0rem 0rem 0rem;
+}
+
+
+
+
 
 
 
