@@ -1,130 +1,186 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
-section {
-    max-width: 1000px;
-    margin: 5rem auto;
+body {
+  background-color: grey;
+  padding: 40px;
 }
 
-h1 {
-    padding: 1rem 0rem 0rem 0rem;
-    width: 100%;
-    font-family:Arial, Helvetica, sans-serif;
-
-    text-shadow: 5px 5px lightslategray;
-
+.main {
+  width: 700px;
+  padding: 40px;
+  background: linear-gradient(to right, rgb(192, 166, 96) 30%, white 30%);
 }
 
-.containerDiv {
-    border: black 1px outset;
-    border-radius: 5%;
-
-    display: flex;
-    flex-direction: column;
-
-    background-color: rgb(148, 162, 177);
-    
-    width: 100%;
+.verticalSpacer {
+  height: 40px;
 }
 
-.DivRow1 {
-    display: flex;
-    text-align: center;
-
-    flex-direction: row;
+.row {
+  display: flex;
+  flex-direction: row;
 }
 
-.DivRow2 {
-    display: flex;
-    margin: 1rem;
-
-    flex-direction: row;
+.bottomline {
+  height: 4px;
+  background-color: black;
+  border-radius: 19%;
 }
 
-.mainDivOne {
-    display: flex;
-    flex-direction: column;
-
-    margin: 1rem;
-    width: 50%;
+/* 1.----------------------------------------------------------------------- */
+.name .first {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 35px;
+  letter-spacing: 10px;
 }
 
-.cvPicDiv {
-    display: flex;
-    justify-content: center;
-
-    width: 100%;    
-    height: 250px;
-
-    margin: 0rem 0rem 1.5rem 0rem;
+.name .last {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 40px;
+  letter-spacing: 15px;
 }
 
-.cvPicDiv img {
-    box-shadow: 10px 10px lightslategrey;
-    border: black outset 1px;
-    border-radius: 25%;
-    height: 250px;
-    width: 250px;
+/* 2.----------------------------------------------------------------------- */
+.development {
+  display: flex;
+  flex-direction: row;
 }
 
-.knowledgeDiv {
-    display: flex;
-    flex-direction: column;
-
-    border: black outset 1px;
-    border-radius: 10%;
-    box-shadow: 10px 10px lightslategrey;
-
-
-    width: 100%;
-    height: 500px;
-
+.development .imageDiv {
+  width: 30%;
+  height: 225px;
+  overflow: hidden;
+  border-radius: 50%;
 }
 
-.knowledgeDiv h4 {
-    margin: 2.5rem 2rem 0.5rem 2rem;
+.development .profileImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.knowledgeDiv p {
-    margin: 0rem 2rem 0rem 2rem;
-    word-spacing: 0.1rem;
+.development .horizontalSpacer {
+  width: 10%;
 }
 
-.mainDivTwo {
-    border: black outset 1px;
-    border-radius: 10%;
-    display: flex;
-    flex-direction: column;
-
-    box-shadow: 10px 10px lightslategrey;
-    
-    margin: 1rem;
-    width: 50%;
+.development .text {
+  width: 60%;
 }
 
-.mainDivTwo div h4 {
-    margin: 2.5rem 2rem 0.5rem 2rem; 
+.development .text h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
 }
 
-.mainDivTwo div ul {
-    margin: 0rem 2rem 0rem 2rem;
-    list-style-position: inside;
+.development .line {
+  width: 10%;
+  height: 4px;
+  border-radius: 30%;
+  background-color: black;
 }
 
-.mainDivTwo div p {
-    margin: 0rem 2rem 0rem 2rem;
-    word-spacing: 0.1rem;
+.development .text b {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
 }
 
-.contactDiv {
-    margin: 0.4rem 0rem 0rem 0rem;
+/* 3.----------------------------------------------------------------------- */
+.contactandeducation {
+  display: flex;
+  flex-direction: row;
 }
 
+.contactandeducation .horizontalSpacer {
+  width: 10%;
+}
 
+.contactandeducation .contact {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
 
+.contactandeducation .education {
+  width: 60%;
+}
 
+.contactandeducation h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
 
+.contactandeducation b {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
 
+.contactandeducation .contact b {
+  font-weight: lighter;
+  font-size: 12px;
+  margin-top: 8px;
+}
 
+/* 4.----------------------------------------------------------------------- */
+.expertiseandexperience {
+  display: flex;
+  flex-direction: row;
+}
+
+.expertiseandexperience .horizontalSpacer {
+  width: 10%;
+}
+
+.expertiseandexperience .expertise {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.expertiseandexperience .experience {
+  width: 60%;
+}
+
+.expertiseandexperience h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.expertiseandexperience b {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+.expertiseandexperience .expertise li {
+  font-size: 10px;
+}
+
+.expertiseandexperience .expertise .lidivone {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.expertiseandexperience .expertise .lidivtwo {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.expertiseandexperience .expertise .language {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.expertiseandexperience .expertise .level {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 35%;
+}
+
+.expertiseandexperience .expertise .filler {
+  width: 25%;
+}
